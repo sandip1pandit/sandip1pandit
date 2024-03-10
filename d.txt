@@ -1,0 +1,56 @@
+<!doctype html>
+<html>       
+<style>
+<!--body {background-color:#99ee63}-->
+.b {background-image: url('IMG_20231227_173207.jpg');
+background-repeat: no-repeat;
+bqackground-attachment: fixed;
+background-size: 100%100%;
+color:white;
+}
+.t {text-align:center
+}
+h1 {font-size:40px}
+</style>
+<h1 style="color:orange; text-align:center;">#COLLAGE</h1>
+<div class="b">
+<body>
+<div class="t">
+<h2 style="font-size:36px;"><a href="https://diatm.rahul.ac.in/web/"target="_blank">Durgapur Instititute of Advanced Technology & Managemment</a></h2>
+</div>
+<a href="https://www.corporate.rahul.ac.in"target="_blank">
+<img src="C:\Users\Sandip\Desktop\unnamed.png"alt="logo"style="width:150px;height:150px;"></a>
+<p><q>Durgapur Institute of Advanced Technology and Management</q> (DIATM),
+ in Durgapur, West Bengal, India offers degree engineering courses which 
+are affiliated to West Bengal State Council of Technical Education (WBSCTE) 
+and degree courses which are <cite>affiliated</cite> to
+<stong><mark> <abbr tittle=Maulana Abul Kalam Azad University of Technology>(MAKAUT)</abbr></mark></strong></p>
+<p>I am sandip from Ghatal,Paschim medinipur I have comple ted  my class 12 in the year 2023, and secured 73%,then I appeared WBJEE exam,my rank was 28103.
+Then I joind in DIATM to persue B.tech degree in CSE deperment by  cunselling.Now I am in 1st year & stay in hostel(k2) in my campus.In now days 
+we are try to improve us, my room no. is 207.This is 4 seater room and my room mates are very excilent and marvelous friend,those are always help me in any hard cases.Here are my 3 room 
+mates--</p>
+<table>
+<tr>
+    <th colspan="3">room mate</th>
+</tr>
+ <tr>
+    <th>1</th>
+    <th>2</th>
+    <th>3</th>
+</tr>
+<tr>
+    <th>SAYAN</th>
+    <th>SUBRATA</th>
+    <th>ARJUN</th>
+</tr>
+</table> 
+<p>The room no.206 beside my room there 4 very excellent boy lived now those name are..</p>
+  <ol type = "1">
+  <li>SUBHAM</li>
+ <li>RISHAV</li>  
+ <li>VISHU</li>
+ <li>NIRAJ</li>
+</ol>  
+</body>
+</div>
+</html>
