@@ -2,8 +2,8 @@
 - 👀 I’m interested in coding
 - 🌱 I’m currently learning HTML,CSS,JS,C,PYTHON.
 - 💞️ I’m looking to collaborate on INTERNSHIP
-- 📫 How to reach me- by gmail
-- 😄 Pronouns: ...
+- 📫 How to reach me- cs2366.diatm@gmail.com
+- 😄 Pronouns: Babu
 - ⚡ Fun fact: ...
 
 <!---
