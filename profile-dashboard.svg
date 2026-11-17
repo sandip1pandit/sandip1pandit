@@ -48,22 +48,21 @@
 <text x="592" y="158" fill="#4d9dff" font-family="monospace" font-size="15">sandip@developer:~$</text><text x="790" y="158" fill="#f0fbff" font-family="monospace" font-size="15">./profile.sh</text>
 <g font-family="monospace" font-size="15">
 <text x="592" y="198" fill="#00e5ff">› Name</text><text x="770" y="198" fill="#e8f8ff">Sandip Pandit</text>
-<text x="592" y="232" fill="#00e5ff">› Role</text><text x="770" y="232" fill="#e8f8ff">AI/ML &amp; Generative AI Learner</text>
-<text x="592" y="266" fill="#00e5ff">› Education</text><text x="770" y="266" fill="#e8f8ff">B.Tech CSE • MAKAUT</text>
+<text x="592" y="232" fill="#00e5ff">› Role</text><text x="770" y="232" fill="#e8f8ff">AI/ML Enthusiast • Python Developer</text>
+<text x="592" y="266" fill="#00e5ff">› Education</text><text x="770" y="266" fill="#e8f8ff">B.Tech CSE • MAKAUT • 7.42</text>
 <text x="592" y="300" fill="#00e5ff">› Location</text><text x="770" y="300" fill="#e8f8ff">India</text>
-<text x="592" y="334" fill="#00e5ff">› Focus</text><text x="770" y="334" fill="#e8f8ff">LLM Apps • RAG • AI Agents</text>
+<text x="592" y="334" fill="#00e5ff">› Focus</text><text x="770" y="334" fill="#e8f8ff">Machine Learning • NLP • Generative AI</text>
 </g>
 <path d="M592 356H1144" stroke="#14566b"/>
 <text x="592" y="388" fill="#00e5ff" font-family="monospace" font-size="14" letter-spacing="1">TECH STACK</text>
 <g font-family="monospace" font-size="13" fill="#d8f5ff">
-<text x="592" y="418">Python • Machine Learning • OpenCV</text><text x="592" y="444">LangChain • LangGraph • RAG • LLM APIs</text><text x="592" y="470">FastAPI • Flask • Streamlit • Docker</text><text x="592" y="496">Redis • MongoDB • Hugging Face</text>
+<text x="592" y="418">Python • C • SQL • JavaScript • Machine Learning</text><text x="592" y="444">Deep Learning • NLP • Scikit-learn • TensorFlow • PyTorch</text><text x="592" y="470">LangChain • LangGraph • RAG • Hugging Face • ChromaDB</text><text x="592" y="496">Flask • FastAPI • MySQL • Redis • Neo4j • Docker</text>
 </g>
 <path d="M592 516H1144" stroke="#14566b"/>
 <text x="592" y="548" fill="#00e5ff" font-family="monospace" font-size="14" letter-spacing="1">FEATURED BUILDS</text>
 <g font-family="monospace" font-size="13">
-<text x="592" y="578" fill="#24e5ff">▸ RAG Student Handbook Assistant</text><text x="620" y="598" fill="#9cbac6">PDF retrieval • embeddings • vector search</text>
-<text x="592" y="628" fill="#24e5ff">▸ Multi-Tool Generative AI Projects</text><text x="620" y="648" fill="#9cbac6">PDF extraction • agents • chatbot</text>
-<text x="592" y="678" fill="#24e5ff">▸ YouTube Video Analyzer</text><text x="620" y="698" fill="#9cbac6">Streamlit • Agno • Groq</text>
+<text x="592" y="578" fill="#24e5ff">▸ Email/SMS Spam Classifier</text><text x="620" y="598" fill="#9cbac6">10+ models • Extra Trees • 97.68% accuracy</text>
+<text x="592" y="638" fill="#24e5ff">▸ AI-Powered RAG Question Answering</text><text x="620" y="658" fill="#9cbac6">PDF retrieval • Qdrant • Groq • Docker</text>
 </g>
 <text x="592" y="746" fill="#4d9dff" font-family="monospace" font-size="13">github.com/sandip1pandit</text>
 </svg>
