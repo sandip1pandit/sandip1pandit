@@ -63,8 +63,8 @@ A Streamlit project exploring an AI-agent workflow for analyzing YouTube video c
 ## GitHub
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=sandip1pandit&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="GitHub statistics">
-  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=sandip1pandit&layout=compact&hide_border=true&theme=transparent" alt="Most used languages">
+  <img height="165" src="./profile/stats.svg" alt="GitHub statistics">
+  <img height="165" src="./profile/top-langs.svg" alt="Most used languages">
 </p>
 
 <p align="center">
