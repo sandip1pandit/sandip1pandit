@@ -16,7 +16,9 @@ def get_json(url):
     with urllib.request.urlopen(req, timeout=30) as response:
         return json.load(response)
 
-def svg_card(title, rows, width=495, height=190):
+def svg_card(title, rows, width=495):
+    # Fit the SVG height to the number of rows so labels never get clipped.
+    height = max(190, 76 + (len(rows) - 1) * 29 + 42)
     lines = []
     y = 76
     for label, value in rows:
