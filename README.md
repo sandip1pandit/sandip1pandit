@@ -13,48 +13,54 @@
 
 ## About Me
 
-I'm a Computer Science and Engineering undergraduate interested in building practical applications with Python, Machine Learning, and Generative AI.
+I'm a Computer Science and Engineering undergraduate at MAKAUT, interested in building practical solutions with Python, Machine Learning, and Generative AI. I enjoy working across the ML workflow—from data cleaning and EDA to model building and deploying interactive applications.
 
-- 🎓 B.Tech in Computer Science & Engineering — MAKAUT (2023–2027)
-- 🤖 Exploring LLM-powered applications, Retrieval-Augmented Generation (RAG), and AI agents
-- 🧩 Interested in connecting models, tools, APIs, and data to build useful applications
-- 🛠️ I learn by building projects, experimenting, and improving them step by step
+- 🎓 **B.Tech in Computer Science & Engineering**, MAKAUT (2023–2027)
+- 📊 CGPA: **7.42** (up to 6th Semester)
+- 🤖 Focus areas: Machine Learning, Deep Learning, NLP, and Generative AI
+- 🧰 Building with Python, ML frameworks, LLM tools, and backend technologies
 
-## What I Do Best
+## What I Do
 
-- **Generative AI:** LLM applications, prompt workflows, LangChain, LangGraph
-- **RAG systems:** document loading, chunking, embeddings, retrieval, vector search
-- **AI agents:** tool use, multi-step workflows, automation
-- **Python development:** APIs and interactive apps with FastAPI, Flask, and Streamlit
-- **Machine Learning:** data preprocessing, EDA, model building, and evaluation
+- **Machine Learning:** data cleaning, EDA, text preprocessing, feature extraction, model building, and evaluation
+- **Generative AI:** LLM applications, LangChain, LangGraph, and Retrieval-Augmented Generation (RAG)
+- **Backend Development:** APIs and applications with Flask, FastAPI, and Streamlit
+- **Data & Databases:** SQL, MySQL, Redis, Neo4j, ChromaDB, and SQLAlchemy
 
 ## Featured Projects
 
-### 📚 [RAG Student Handbook Assistant](https://github.com/sandip1pandit/AI-Powered-RAG-Question-Answering-System)
-A document-grounded question-answering project that processes a PDF handbook, creates embeddings, retrieves relevant content, and generates context-aware answers.
+### 📩 [Email/SMS Spam Classifier](https://github.com/sandip1pandit/spam_classifier)
 
-**Tech:** Python · RAG · Hugging Face · Redis Vector Store · Docker · LLM APIs
+An ML-based spam classification system with data cleaning, exploratory data analysis, text preprocessing, feature extraction, and model comparison. Compared **10+ classification algorithms**; the Extra Trees Classifier achieved **97.68% accuracy**. Includes an interactive Streamlit interface for real-time spam predictions.
 
-### 🧠 [Generative AI & LangChain Internship Projects](https://github.com/sandip1pandit/Datheon_Python_-_Generative_AI_-_LangChain_Internship)
-A collection of practical tasks covering PDF-to-JSON extraction, retrieval-based question answering, a multi-tool autonomous agent, and a chatbot interface.
+**Tech:** Python · Scikit-learn · NLTK · Streamlit
 
-**Tech:** Python · Gemini API · Pydantic · LangChain · RAG · Streamlit · FastAPI
+### 📚 [AI-Powered RAG Question Answering System](https://github.com/sandip1pandit/AI-Powered-RAG-Question-Answering-System)
 
-### ▶️ [YouTube Video Analyzer](https://github.com/sandip1pandit/yt_analyzer)
-A Streamlit project exploring an AI-agent workflow for analyzing YouTube video content.
+A document-grounded question-answering system for PDF files. Implements document loading, text chunking, Hugging Face embeddings, and Qdrant vector storage to retrieve relevant content and generate context-grounded answers with page references. The vector database is containerized using Docker.
 
-**Tech:** Python · Streamlit · Agno · Groq · YouTube Tools
+**Tech:** Python · LangChain · Qdrant · Groq · Hugging Face · Docker
 
-## Technical Stack
+## Technical Skills
 
 | Area | Technologies |
 |---|---|
-| Programming | Python |
-| AI / ML | Machine Learning, OpenCV, data preprocessing, EDA |
-| Generative AI | LLM APIs, LangChain, LangGraph, RAG |
-| Vector Search & Data | Redis, MongoDB, vector databases, Hugging Face |
-| Backend & Apps | FastAPI, Flask, Streamlit |
-| Tools | Git, GitHub, Docker |
+| Programming Languages | Python · C · SQL · JavaScript |
+| AI / Machine Learning | Machine Learning · Deep Learning · NLP · Scikit-learn · TensorFlow · PyTorch |
+| Generative AI | LangChain · LangGraph · RAG · Hugging Face · ChromaDB |
+| Backend & Databases | Flask · FastAPI · MySQL · SQLAlchemy · Redis · Neo4j |
+| Tools & Platforms | Git · GitHub · VS Code · Cursor · Jupyter · Docker |
+| Additional | Streamlit · OpenCV · Reinforcement Learning · Python Automation |
+
+## Coursework
+
+Operating Systems · OOPS · DBMS · Data Structures & Algorithms · Artificial Intelligence · Web Development · Networking · Machine Learning
+
+## Certifications & Activities
+
+- Introduction to Machine Learning — **NPTEL**
+- One-Day Seminar on Ambient and Assistive Technology — **The Institution of Engineers (India)**
+- Internal Institute Level Hackathon 2024 — **DIATM**
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=python,fastapi,flask,opencv,git,github,docker,redis,mongodb&perline=9" alt="Technology icons">
