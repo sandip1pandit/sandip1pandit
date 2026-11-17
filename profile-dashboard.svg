@@ -11,11 +11,7 @@
   <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   <filter id="soft"><feGaussianBlur stdDeviation="11"/></filter>
   <clipPath id="portraitClip"><rect x="52" y="128" width="462" height="420" rx="12"/></clipPath>
-  <clipPath id="person">
-    <path d="M168 514 Q180 426 235 400 L253 386 H316 L339 402 Q390 433 400 514Z"/>
-    <path d="M229 250 Q229 166 285 164 Q345 166 347 250 L338 322 Q328 374 285 385 Q242 372 235 322Z"/>
-    <path d="M235 245 Q244 178 290 178 Q329 178 343 238 Q326 216 308 213 Q273 207 244 235Z"/>
-  </clipPath>
+  <clipPath id="person"><path d="M160 516 Q168 454 205 426 Q224 410 250 402 L250 378 Q230 357 224 322 Q215 282 224 239 Q231 174 285 166 Q344 166 352 238 Q360 282 347 326 Q341 358 320 378 L320 402 Q350 411 377 433 Q402 458 410 516Z"/><path d="M222 244 Q222 177 276 164 Q324 151 349 210 L354 252 Q338 227 319 218 Q281 205 242 239 L229 263Z"/></clipPath>
 </defs>
 <rect width="1200" height="760" rx="24" fill="url(#bg)"/><rect width="1200" height="760" rx="24" fill="url(#grid)"/>
 <rect x="1" y="1" width="1198" height="758" rx="23" fill="none" stroke="#00dfff" stroke-width="2" opacity=".85"/>
@@ -34,33 +30,21 @@
     <animate attributeName="rx" values="145;158;145" dur="5s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values=".15;.5;.15" dur="5s" repeatCount="indefinite"/>
   </ellipse>
-  <!-- Digital silhouette -->
-  <path d="M168 514 Q180 426 235 400 L253 386 H316 L339 402 Q390 433 400 514Z" fill="url(#face)" stroke="#087da0" stroke-width="2"/>
-  <path d="M229 250 Q229 166 285 164 Q345 166 347 250 L338 322 Q328 374 285 385 Q242 372 235 322Z" fill="url(#face)" stroke="#0bbfe9" stroke-width="2.5"/>
-  <path d="M235 245 Q244 178 290 178 Q329 178 343 238 Q326 216 308 213 Q273 207 244 235Z" fill="#020812" stroke="#087da0" stroke-width="2"/>
-  <path d="M244 279 Q261 267 278 279 M295 279 Q312 267 329 279" fill="none" stroke="#32eaff" stroke-width="3.5" stroke-linecap="round"/>
-  <path d="M281 293 L274 315 L290 318 M278 337 Q290 345 302 337" fill="none" stroke="#23cce9" stroke-width="2"/>
-  <path d="M238 281 Q255 267 279 276 L278 300 Q255 305 239 294Z M292 276 Q315 267 333 281 L331 294 Q313 305 292 300Z" fill="none" stroke="#29dfff" stroke-width="3"/>
-  <path d="M278 286H292 M230 274L214 287L231 302 M342 274L358 287L340 302" fill="none" stroke="#00cfff" stroke-width="2"/>
-  <path d="M235 402 L252 386 L265 426 L285 444 L307 426 L321 386 L339 402 L361 514 H207Z" fill="#062d40" stroke="#10cde9" stroke-width="2"/>
-  <path d="M205 514 L228 447 L248 514 M365 514 L345 447 L326 514" fill="none" stroke="#087da0" stroke-width="2"/>
-  <!-- Point-cloud texture clipped to the figure -->
-  <rect x="150" y="155" width="290" height="370" fill="url(#pixels)" clip-path="url(#person)" opacity=".8"/>
+  <!-- Luminous point-cloud portrait with neon glasses -->
+  <ellipse cx="285" cy="342" rx="166" ry="185" fill="none" stroke="#00cfff" stroke-opacity=".22" stroke-dasharray="2 9"/>
+  <path d="M160 516 Q168 454 205 426 Q224 410 250 402 L250 378 Q230 357 224 322 Q215 282 224 239 Q231 174 285 166 Q344 166 352 238 Q360 282 347 326 Q341 358 320 378 L320 402 Q350 411 377 433 Q402 458 410 516Z" fill="#020914" stroke="#087da0" stroke-width="1.5"/>
+  <rect x="145" y="150" width="300" height="380" fill="url(#pixels)" clip-path="url(#person)" opacity=".98"/>
+  <path d="M224 245 Q222 177 276 164 Q324 151 349 210 L354 252 Q338 227 319 218 Q281 205 242 239 L229 263Z" fill="#020812" stroke="#11bddd" stroke-width="1.5"/>
+  <path d="M230 276 Q251 263 278 275 L279 303 Q252 310 232 294Z M292 275 Q319 263 340 278 L337 294 Q317 310 291 303Z" fill="none" stroke="#42eaff" stroke-width="3" filter="url(#glow)"/>
+  <path d="M279 284H292 M229 281L215 288L230 297 M340 281L355 288L339 297" fill="none" stroke="#24dfff" stroke-width="2"/>
+  <path d="M284 296L277 317L291 320 M278 339Q289 346 300 339" fill="none" stroke="#36dff8" stroke-width="1.8"/>
+  <path d="M250 379L250 402L285 437L320 402L320 379" fill="#061d2b" stroke="#0b9fbe" stroke-width="1.5"/>
+  <path d="M160 516Q168 454 205 426L250 402L265 516 M410 516Q402 458 377 433L320 402L305 516" fill="none" stroke="#10c8e8" stroke-width="1.5"/>
   <rect x="52" y="128" width="462" height="420" fill="url(#scan)"/>
-  <rect x="52" y="128" width="462" height="420" fill="#00dfff" opacity=".04">
-    <animate attributeName="opacity" values=".02;.11;.02" dur="3.8s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="52" y="128" width="462" height="26" fill="#00dfff" opacity=".12" filter="url(#soft)">
-    <animate attributeName="y" values="128;520;128" dur="6s" repeatCount="indefinite"/>
-  </rect>
-  <path d="M52 170H514" stroke="#26eaff" stroke-width="1" opacity=".65">
-    <animate attributeName="d" values="M52 170H514;M52 500H514;M52 170H514" dur="6s" repeatCount="indefinite"/>
-  </path>
-  <g fill="#23e8ff" filter="url(#glow)">
-    <circle cx="155" cy="210" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
-    <circle cx="421" cy="235" r="2"><animate attributeName="opacity" values="1;.2;1" dur="2.7s" repeatCount="indefinite"/></circle>
-    <circle cx="176" cy="369" r="2"/><circle cx="404" cy="390" r="2"/>
-  </g>
+  <rect x="52" y="128" width="462" height="420" fill="#00dfff" opacity=".035"><animate attributeName="opacity" values=".02;.12;.02" dur="3.6s" repeatCount="indefinite"/></rect>
+  <rect x="52" y="128" width="462" height="18" fill="#00dfff" opacity=".16" filter="url(#soft)"><animate attributeName="y" values="128;530;128" dur="5.5s" repeatCount="indefinite"/></rect>
+  <path d="M52 150H514" stroke="#26eaff" stroke-width="1" opacity=".8"><animate attributeName="d" values="M52 150H514;M52 525H514;M52 150H514" dur="5.5s" repeatCount="indefinite"/></path>
+  <g fill="#23e8ff" filter="url(#glow)"><circle cx="155" cy="210" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle><circle cx="421" cy="235" r="2"><animate attributeName="opacity" values="1;.2;1" dur="2.7s" repeatCount="indefinite"/></circle><circle cx="176" cy="369" r="2"/><circle cx="404" cy="390" r="2"/></g>
 </g>
 <text x="76" y="580" fill="#e8fbff" font-family="monospace" font-size="26" font-weight="bold">SANDIP PANDIT</text>
 <text x="76" y="608" fill="#56dff4" font-family="monospace" font-size="15">AI / ML • GENERATIVE AI • PYTHON</text>
