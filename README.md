@@ -75,10 +75,12 @@ A Streamlit project exploring an AI-agent workflow for analyzing YouTube video c
   </picture>
 </p>
 
-## Connect
+## 📫 Connect With Me
 
-- **GitHub:** [@sandip1pandit](https://github.com/sandip1pandit)
-- **Projects:** [Browse all repositories](https://github.com/sandip1pandit?tab=repositories)
+<p>
+  💼 <a href="https://www.linkedin.com/in/sandip-pandit-6ba6272b7/">LinkedIn</a><br>
+  📧 <a href="mailto:cs2366.diatm@gmail.com">Email</a>
+</p>
 
 ---
 
