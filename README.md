@@ -4,7 +4,7 @@
 <h3 align="center">AI/ML Learner · Generative AI Developer · Python</h3>
 
 <p align="center">
-  <img src="./profile-dashboard.svg" alt="Sandip Pandit's futuristic developer dashboard" width="100%">
+  <img src="https://raw.githubusercontent.com/sandip1pandit/sandip1pandit/main/profile-dashboard.svg?v=2" alt="Sandip Pandit's futuristic developer dashboard" width="100%">
 </p>
 
 ## About Me
