@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
+<title id="title">Sandip Pandit — AI and Generative AI Developer Dashboard</title>
+<desc id="desc">A cyberpunk terminal dashboard with a digital avatar and profile, skills, projects, and links.</desc>
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050d18"/><stop offset="1" stop-color="#081b28"/></linearGradient>
+  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
+  <linearGradient id="avatar" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9ff" stop-opacity=".95"/><stop offset="1" stop-color="#647cff" stop-opacity=".55"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0b5265" stroke-opacity=".28" stroke-width="1"/></pattern>
+  <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.15" fill="#16cde8" opacity=".62"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+</defs>
+<rect width="1200" height="760" rx="24" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="758" rx="23" fill="url(#grid)" stroke="#0acde8" stroke-width="2"/>
+<path d="M24 54H1176" stroke="#14566b" stroke-width="1"/>
+<circle cx="34" cy="28" r="7" fill="#ff5f57"/><circle cx="58" cy="28" r="7" fill="#febc2e"/><circle cx="82" cy="28" r="7" fill="#28c840"/>
+<text x="112" y="34" fill="#21e6ff" font-family="monospace" font-size="17" font-weight="bold">sandip@developer: ~/profile</text>
+<text x="845" y="34" fill="#5bdcf1" font-family="monospace" font-size="13">CODE　⌘　 PROJECTS　⌘　 CONNECT</text>
+<rect x="28" y="76" width="510" height="650" rx="18" fill="#03111b" stroke="#00cce8" stroke-width="2"/>
+<rect x="28" y="76" width="510" height="650" rx="18" fill="none" stroke="#00dfff" stroke-opacity=".35" filter="url(#glow)"/>
+<text x="52" y="108" fill="#00e5ff" font-family="monospace" font-size="13" letter-spacing="2">01 / DIGITAL IDENTITY</text>
+<rect x="52" y="128" width="462" height="420" rx="12" fill="#061827" stroke="#15556a"/>
+<rect x="52" y="128" width="462" height="420" rx="12" fill="url(#dots)" opacity=".7"/>
+<circle cx="283" cy="300" r="150" fill="#06283a" opacity=".48" stroke="#00cde8" stroke-opacity=".4"/>
+<circle cx="283" cy="300" r="128" fill="none" stroke="#00dfff" stroke-opacity=".35" stroke-dasharray="3 8"/>
+<!-- abstract digital avatar -->
+<path d="M183 510 Q190 424 230 400 L250 386 L316 386 L340 402 Q382 424 390 510Z" fill="#0b5268" stroke="url(#avatar)" stroke-width="3"/>
+<path d="M225 405 L245 386 L262 424 L283 442 L305 424 L324 386 L346 405 L360 510 L205 510Z" fill="#0a3145" stroke="#19d9f4" stroke-opacity=".8" stroke-width="2"/>
+<path d="M238 244 Q241 177 285 174 Q337 178 339 246 L331 310 Q323 358 284 367 Q246 357 238 310Z" fill="#0b2639" stroke="url(#avatar)" stroke-width="3"/>
+<path d="M238 247 Q249 195 284 195 Q324 195 339 246 L329 226 Q291 242 247 228Z" fill="#071522" stroke="#00dfff" stroke-width="2"/>
+<path d="M248 278 Q262 268 276 278 M293 278 Q308 268 321 278" fill="none" stroke="#2de7ff" stroke-width="4" stroke-linecap="round"/>
+<path d="M277 321 Q284 327 292 321" fill="none" stroke="#5cddff" stroke-width="3" stroke-linecap="round"/>
+<path d="M283 289 L276 307 L289 310" fill="none" stroke="#24cde8" stroke-width="2"/>
+<path d="M232 270 L214 283 L230 299 M337 270 L353 283 L337 299" fill="none" stroke="#00dfff" stroke-width="2" opacity=".8"/>
+<path d="M185 475 L228 443 L248 510 M390 475 L347 443 L327 510" fill="none" stroke="#00cde8" stroke-width="2" opacity=".7"/>
+<g fill="#27e7ff" opacity=".8"><circle cx="153" cy="210" r="2"/><circle cx="416" cy="235" r="2"/><circle cx="175" cy="365" r="2"/><circle cx="402" cy="390" r="2"/><circle cx="284" cy="150" r="2"/><circle cx="284" cy="530" r="2"/></g>
+<text x="76" y="580" fill="#e8fbff" font-family="monospace" font-size="26" font-weight="bold">SANDIP PANDIT</text>
+<text x="76" y="608" fill="#56dff4" font-family="monospace" font-size="15">AI / ML • GENERATIVE AI • PYTHON</text>
+<text x="76" y="650" fill="#8aaeba" font-family="monospace" font-size="13">LEARN. BUILD. ITERATE.</text>
+<rect x="566" y="76" width="606" height="650" rx="18" fill="#03111b" stroke="#00cce8" stroke-width="2"/>
+<text x="590" y="108" fill="#00e5ff" font-family="monospace" font-size="13" letter-spacing="2">02 / SYSTEM INFORMATION</text>
+<circle cx="1128" cy="102" r="5" fill="#22e6a8" filter="url(#glow)"/><text x="1088" y="124" fill="#22e6a8" font-family="monospace" font-size="11">ONLINE</text>
+<text x="592" y="158" fill="#4d9dff" font-family="monospace" font-size="15">sandip@developer:~$</text><text x="790" y="158" fill="#f0fbff" font-family="monospace" font-size="15">./profile.sh</text>
+<g font-family="monospace" font-size="15">
+<text x="592" y="198" fill="#00e5ff">› Name</text><text x="770" y="198" fill="#e8f8ff">Sandip Pandit</text>
+<text x="592" y="232" fill="#00e5ff">› Role</text><text x="770" y="232" fill="#e8f8ff">AI/ML &amp; Generative AI Learner</text>
+<text x="592" y="266" fill="#00e5ff">› Education</text><text x="770" y="266" fill="#e8f8ff">B.Tech CSE • MAKAUT</text>
+<text x="592" y="300" fill="#00e5ff">› Location</text><text x="770" y="300" fill="#e8f8ff">India</text>
+<text x="592" y="334" fill="#00e5ff">› Focus</text><text x="770" y="334" fill="#e8f8ff">LLM Apps • RAG • AI Agents</text>
+</g>
+<path d="M592 356H1144" stroke="#14566b"/>
+<text x="592" y="388" fill="#00e5ff" font-family="monospace" font-size="14" letter-spacing="1">TECH STACK</text>
+<g font-family="monospace" font-size="13" fill="#d8f5ff">
+<text x="592" y="418">Python • Machine Learning • OpenCV</text>
+<text x="592" y="444">LangChain • LangGraph • RAG • LLM APIs</text>
+<text x="592" y="470">FastAPI • Flask • Streamlit • Docker</text>
+<text x="592" y="496">Redis • MongoDB • Hugging Face</text>
+</g>
+<path d="M592 516H1144" stroke="#14566b"/>
+<text x="592" y="548" fill="#00e5ff" font-family="monospace" font-size="14" letter-spacing="1">FEATURED BUILDS</text>
+<g font-family="monospace" font-size="13">
+<text x="592" y="578" fill="#24e5ff">▸ RAG Student Handbook Assistant</text><text x="620" y="598" fill="#9cbac6">PDF retrieval • embeddings • vector search</text>
+<text x="592" y="628" fill="#24e5ff">▸ Multi-Tool Generative AI Projects</text><text x="620" y="648" fill="#9cbac6">PDF extraction • agents • chatbot</text>
+<text x="592" y="678" fill="#24e5ff">▸ YouTube Video Analyzer</text><text x="620" y="698" fill="#9cbac6">Streamlit • Agno • Groq</text>
+</g>
+<text x="592" y="746" fill="#4d9dff" font-family="monospace" font-size="13">github.com/sandip1pandit</text>
+</svg>
