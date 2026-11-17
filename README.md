@@ -4,7 +4,11 @@
 <h3 align="center">AI/ML Learner · Generative AI Developer · Python</h3>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/sandip1pandit/sandip1pandit/main/profile-dashboard.svg?v=2" alt="Sandip Pandit's futuristic developer dashboard" width="100%">
+  <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sandip1pandit/sandip1pandit/main/profile-dashboard.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sandip1pandit/sandip1pandit/main/profile-dashboard-light.svg">
+  <img src="https://raw.githubusercontent.com/sandip1pandit/sandip1pandit/main/profile-dashboard-light.svg" alt="Sandip Pandit's animated developer dashboard" width="100%">
+</picture>
 </p>
 
 ## About Me
