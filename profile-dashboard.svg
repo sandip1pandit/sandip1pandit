@@ -1,44 +1,73 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="760" viewBox="0 0 1200 760" role="img" aria-labelledby="title desc">
-<title id="title">Sandip Pandit — AI and Generative AI Developer Dashboard</title>
-<desc id="desc">A cyberpunk terminal dashboard with a digital avatar and profile, skills, projects, and links.</desc>
+<title id="title">Sandip Pandit — animated cyberpunk developer dashboard</title>
+<desc id="desc">A neon terminal dashboard with an animated cyan point-cloud portrait, system information, skills, projects and links.</desc>
 <defs>
-  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050d18"/><stop offset="1" stop-color="#081b28"/></linearGradient>
-  <linearGradient id="cyan" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00e5ff"/><stop offset="1" stop-color="#3b82f6"/></linearGradient>
-  <linearGradient id="avatar" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#00d9ff" stop-opacity=".95"/><stop offset="1" stop-color="#647cff" stop-opacity=".55"/></linearGradient>
-  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0b5265" stroke-opacity=".28" stroke-width="1"/></pattern>
-  <pattern id="dots" width="9" height="9" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.15" fill="#16cde8" opacity=".62"/></pattern>
-  <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050b12"/><stop offset="1" stop-color="#071a27"/></linearGradient>
+  <linearGradient id="neon" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#00eaff"/><stop offset=".55" stop-color="#00a9ff"/><stop offset="1" stop-color="#8a5cff"/></linearGradient>
+  <linearGradient id="face" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#061d2b"/><stop offset="1" stop-color="#020811"/></linearGradient>
+  <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#0b5265" stroke-opacity=".26"/></pattern>
+  <pattern id="pixels" width="6" height="6" patternUnits="userSpaceOnUse"><circle cx="1.5" cy="1.5" r="1.1" fill="#19dfff" opacity=".8"/></pattern>
+  <pattern id="scan" width="4" height="8" patternUnits="userSpaceOnUse"><path d="M0 0H4" stroke="#62efff" stroke-opacity=".15"/></pattern>
+  <filter id="glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  <filter id="soft"><feGaussianBlur stdDeviation="11"/></filter>
+  <clipPath id="portraitClip"><rect x="52" y="128" width="462" height="420" rx="12"/></clipPath>
+  <clipPath id="person">
+    <path d="M168 514 Q180 426 235 400 L253 386 H316 L339 402 Q390 433 400 514Z"/>
+    <path d="M229 250 Q229 166 285 164 Q345 166 347 250 L338 322 Q328 374 285 385 Q242 372 235 322Z"/>
+    <path d="M235 245 Q244 178 290 178 Q329 178 343 238 Q326 216 308 213 Q273 207 244 235Z"/>
+  </clipPath>
 </defs>
-<rect width="1200" height="760" rx="24" fill="url(#bg)"/>
-<rect x="1" y="1" width="1198" height="758" rx="23" fill="url(#grid)" stroke="#0acde8" stroke-width="2"/>
-<path d="M24 54H1176" stroke="#14566b" stroke-width="1"/>
+<rect width="1200" height="760" rx="24" fill="url(#bg)"/><rect width="1200" height="760" rx="24" fill="url(#grid)"/>
+<rect x="1" y="1" width="1198" height="758" rx="23" fill="none" stroke="#00dfff" stroke-width="2" opacity=".85"/>
+<rect x="1" y="1" width="1198" height="758" rx="23" fill="none" stroke="#00dfff" stroke-width="5" opacity=".22" filter="url(#soft)"/>
+<path d="M24 54H1176" stroke="#14566b"/>
 <circle cx="34" cy="28" r="7" fill="#ff5f57"/><circle cx="58" cy="28" r="7" fill="#febc2e"/><circle cx="82" cy="28" r="7" fill="#28c840"/>
 <text x="112" y="34" fill="#21e6ff" font-family="monospace" font-size="17" font-weight="bold">sandip@developer: ~/profile</text>
 <text x="845" y="34" fill="#5bdcf1" font-family="monospace" font-size="13">CODE　⌘　 PROJECTS　⌘　 CONNECT</text>
 <rect x="28" y="76" width="510" height="650" rx="18" fill="#03111b" stroke="#00cce8" stroke-width="2"/>
-<rect x="28" y="76" width="510" height="650" rx="18" fill="none" stroke="#00dfff" stroke-opacity=".35" filter="url(#glow)"/>
 <text x="52" y="108" fill="#00e5ff" font-family="monospace" font-size="13" letter-spacing="2">01 / DIGITAL IDENTITY</text>
 <rect x="52" y="128" width="462" height="420" rx="12" fill="#061827" stroke="#15556a"/>
-<rect x="52" y="128" width="462" height="420" rx="12" fill="url(#dots)" opacity=".7"/>
-<circle cx="283" cy="300" r="150" fill="#06283a" opacity=".48" stroke="#00cde8" stroke-opacity=".4"/>
-<circle cx="283" cy="300" r="128" fill="none" stroke="#00dfff" stroke-opacity=".35" stroke-dasharray="3 8"/>
-<!-- abstract digital avatar -->
-<path d="M183 510 Q190 424 230 400 L250 386 L316 386 L340 402 Q382 424 390 510Z" fill="#0b5268" stroke="url(#avatar)" stroke-width="3"/>
-<path d="M225 405 L245 386 L262 424 L283 442 L305 424 L324 386 L346 405 L360 510 L205 510Z" fill="#0a3145" stroke="#19d9f4" stroke-opacity=".8" stroke-width="2"/>
-<path d="M238 244 Q241 177 285 174 Q337 178 339 246 L331 310 Q323 358 284 367 Q246 357 238 310Z" fill="#0b2639" stroke="url(#avatar)" stroke-width="3"/>
-<path d="M238 247 Q249 195 284 195 Q324 195 339 246 L329 226 Q291 242 247 228Z" fill="#071522" stroke="#00dfff" stroke-width="2"/>
-<path d="M248 278 Q262 268 276 278 M293 278 Q308 268 321 278" fill="none" stroke="#2de7ff" stroke-width="4" stroke-linecap="round"/>
-<path d="M277 321 Q284 327 292 321" fill="none" stroke="#5cddff" stroke-width="3" stroke-linecap="round"/>
-<path d="M283 289 L276 307 L289 310" fill="none" stroke="#24cde8" stroke-width="2"/>
-<path d="M232 270 L214 283 L230 299 M337 270 L353 283 L337 299" fill="none" stroke="#00dfff" stroke-width="2" opacity=".8"/>
-<path d="M185 475 L228 443 L248 510 M390 475 L347 443 L327 510" fill="none" stroke="#00cde8" stroke-width="2" opacity=".7"/>
-<g fill="#27e7ff" opacity=".8"><circle cx="153" cy="210" r="2"/><circle cx="416" cy="235" r="2"/><circle cx="175" cy="365" r="2"/><circle cx="402" cy="390" r="2"/><circle cx="284" cy="150" r="2"/><circle cx="284" cy="530" r="2"/></g>
+<g clip-path="url(#portraitClip)">
+  <rect x="52" y="128" width="462" height="420" fill="url(#pixels)" opacity=".55"/>
+  <ellipse cx="285" cy="334" rx="175" ry="188" fill="none" stroke="#00dfff" stroke-opacity=".22" stroke-dasharray="2 8"/>
+  <ellipse cx="285" cy="334" rx="145" ry="160" fill="none" stroke="#00bfff" stroke-opacity=".18">
+    <animate attributeName="rx" values="145;158;145" dur="5s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values=".15;.5;.15" dur="5s" repeatCount="indefinite"/>
+  </ellipse>
+  <!-- Digital silhouette -->
+  <path d="M168 514 Q180 426 235 400 L253 386 H316 L339 402 Q390 433 400 514Z" fill="url(#face)" stroke="#087da0" stroke-width="2"/>
+  <path d="M229 250 Q229 166 285 164 Q345 166 347 250 L338 322 Q328 374 285 385 Q242 372 235 322Z" fill="url(#face)" stroke="#0bbfe9" stroke-width="2.5"/>
+  <path d="M235 245 Q244 178 290 178 Q329 178 343 238 Q326 216 308 213 Q273 207 244 235Z" fill="#020812" stroke="#087da0" stroke-width="2"/>
+  <path d="M244 279 Q261 267 278 279 M295 279 Q312 267 329 279" fill="none" stroke="#32eaff" stroke-width="3.5" stroke-linecap="round"/>
+  <path d="M281 293 L274 315 L290 318 M278 337 Q290 345 302 337" fill="none" stroke="#23cce9" stroke-width="2"/>
+  <path d="M238 281 Q255 267 279 276 L278 300 Q255 305 239 294Z M292 276 Q315 267 333 281 L331 294 Q313 305 292 300Z" fill="none" stroke="#29dfff" stroke-width="3"/>
+  <path d="M278 286H292 M230 274L214 287L231 302 M342 274L358 287L340 302" fill="none" stroke="#00cfff" stroke-width="2"/>
+  <path d="M235 402 L252 386 L265 426 L285 444 L307 426 L321 386 L339 402 L361 514 H207Z" fill="#062d40" stroke="#10cde9" stroke-width="2"/>
+  <path d="M205 514 L228 447 L248 514 M365 514 L345 447 L326 514" fill="none" stroke="#087da0" stroke-width="2"/>
+  <!-- Point-cloud texture clipped to the figure -->
+  <rect x="150" y="155" width="290" height="370" fill="url(#pixels)" clip-path="url(#person)" opacity=".8"/>
+  <rect x="52" y="128" width="462" height="420" fill="url(#scan)"/>
+  <rect x="52" y="128" width="462" height="420" fill="#00dfff" opacity=".04">
+    <animate attributeName="opacity" values=".02;.11;.02" dur="3.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="52" y="128" width="462" height="26" fill="#00dfff" opacity=".12" filter="url(#soft)">
+    <animate attributeName="y" values="128;520;128" dur="6s" repeatCount="indefinite"/>
+  </rect>
+  <path d="M52 170H514" stroke="#26eaff" stroke-width="1" opacity=".65">
+    <animate attributeName="d" values="M52 170H514;M52 500H514;M52 170H514" dur="6s" repeatCount="indefinite"/>
+  </path>
+  <g fill="#23e8ff" filter="url(#glow)">
+    <circle cx="155" cy="210" r="2"><animate attributeName="opacity" values=".2;1;.2" dur="2s" repeatCount="indefinite"/></circle>
+    <circle cx="421" cy="235" r="2"><animate attributeName="opacity" values="1;.2;1" dur="2.7s" repeatCount="indefinite"/></circle>
+    <circle cx="176" cy="369" r="2"/><circle cx="404" cy="390" r="2"/>
+  </g>
+</g>
 <text x="76" y="580" fill="#e8fbff" font-family="monospace" font-size="26" font-weight="bold">SANDIP PANDIT</text>
 <text x="76" y="608" fill="#56dff4" font-family="monospace" font-size="15">AI / ML • GENERATIVE AI • PYTHON</text>
 <text x="76" y="650" fill="#8aaeba" font-family="monospace" font-size="13">LEARN. BUILD. ITERATE.</text>
 <rect x="566" y="76" width="606" height="650" rx="18" fill="#03111b" stroke="#00cce8" stroke-width="2"/>
 <text x="590" y="108" fill="#00e5ff" font-family="monospace" font-size="13" letter-spacing="2">02 / SYSTEM INFORMATION</text>
-<circle cx="1128" cy="102" r="5" fill="#22e6a8" filter="url(#glow)"/><text x="1088" y="124" fill="#22e6a8" font-family="monospace" font-size="11">ONLINE</text>
+<circle cx="1128" cy="102" r="5" fill="#22e6a8" filter="url(#glow)"><animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/></circle><text x="1088" y="124" fill="#22e6a8" font-family="monospace" font-size="11">ONLINE</text>
 <text x="592" y="158" fill="#4d9dff" font-family="monospace" font-size="15">sandip@developer:~$</text><text x="790" y="158" fill="#f0fbff" font-family="monospace" font-size="15">./profile.sh</text>
 <g font-family="monospace" font-size="15">
 <text x="592" y="198" fill="#00e5ff">› Name</text><text x="770" y="198" fill="#e8f8ff">Sandip Pandit</text>
@@ -50,10 +79,7 @@
 <path d="M592 356H1144" stroke="#14566b"/>
 <text x="592" y="388" fill="#00e5ff" font-family="monospace" font-size="14" letter-spacing="1">TECH STACK</text>
 <g font-family="monospace" font-size="13" fill="#d8f5ff">
-<text x="592" y="418">Python • Machine Learning • OpenCV</text>
-<text x="592" y="444">LangChain • LangGraph • RAG • LLM APIs</text>
-<text x="592" y="470">FastAPI • Flask • Streamlit • Docker</text>
-<text x="592" y="496">Redis • MongoDB • Hugging Face</text>
+<text x="592" y="418">Python • Machine Learning • OpenCV</text><text x="592" y="444">LangChain • LangGraph • RAG • LLM APIs</text><text x="592" y="470">FastAPI • Flask • Streamlit • Docker</text><text x="592" y="496">Redis • MongoDB • Hugging Face</text>
 </g>
 <path d="M592 516H1144" stroke="#14566b"/>
 <text x="592" y="548" fill="#00e5ff" font-family="monospace" font-size="14" letter-spacing="1">FEATURED BUILDS</text>
