@@ -57,6 +57,8 @@ A document-grounded question-answering system for PDF files. Implements document
 Operating Systems · OOPS · DBMS · Data Structures & Algorithms · Artificial Intelligence · Web Development · Networking · Machine Learning
 
 ## Certifications & Activities
+- **Databricks Accredited Generative AI Fundamentals** — Databricks Academy (November 21, 2026)
+
 
 - Introduction to Machine Learning — **NPTEL**
 - One-Day Seminar on Ambient and Assistive Technology — **The Institution of Engineers (India)**
