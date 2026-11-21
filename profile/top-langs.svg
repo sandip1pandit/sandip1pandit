@@ -16,5 +16,5 @@
   <rect class="card" x="1" y="1" width="493" height="232" rx="10"/>
   <text class="title" x="28" y="39">Most Used Languages</text>
   <text x="28" y="76" class="label">Jupyter Notebook</text><text x="467" y="76" text-anchor="end" class="value">69.2%</text><text x="28" y="105" class="label">CSS</text><text x="467" y="105" text-anchor="end" class="value">22.7%</text><text x="28" y="134" class="label">Python</text><text x="467" y="134" text-anchor="end" class="value">3.4%</text><text x="28" y="163" class="label">HTML</text><text x="467" y="163" text-anchor="end" class="value">2.6%</text><text x="28" y="192" class="label">JavaScript</text><text x="467" y="192" text-anchor="end" class="value">2.0%</text>
-  <text x="467" y="222" text-anchor="end" style="font:10px sans-serif;fill:#8b949e">Updated 2026-11-20</text>
+  <text x="467" y="222" text-anchor="end" style="font:10px sans-serif;fill:#8b949e">Updated 2026-11-21</text>
 </svg>
